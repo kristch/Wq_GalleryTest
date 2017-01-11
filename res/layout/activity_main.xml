@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageSwitcher
+        android:layout_marginTop="8dp"
+        android:id="@+id/switcher"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+         />
+
+    <Gallery
+        android:id="@+id/gallery"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:background="#550ff000"
+        android:gravity="center_vertical"
+        android:spacing="10dp" />
+
+    <Button
+        android:id="@+id/butleft"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+         android:layout_marginTop="60dp"
+        android:layout_alignParentLeft="true"
+        android:text="前一个" />
+
+    <Button
+        android:id="@+id/butright"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+         android:layout_marginTop="60dp"
+        android:layout_alignParentRight="true"
+        android:text="后一个" />
+
+</RelativeLayout>
